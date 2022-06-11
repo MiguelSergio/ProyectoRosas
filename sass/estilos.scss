@@ -1,0 +1,234 @@
+$Titulos:'Montserrat', sans-serif;
+$contenido: 'Space Mono', monospace;
+
+*{
+    padding: 0;
+    margin: 0;
+ }
+
+ .bg-barra{
+     background-color: #005184;
+     font-family: $Titulos;
+ }
+
+ a{
+     text-decoration: none;
+ }
+ 
+ .boton{
+     color: #005184;
+     border: 1px solid #005184;
+     padding: 10px 25px;
+     font-family: $contenido;
+     font-weight: bold;
+     border-radius: 30px;
+ }
+
+ .mia{
+
+   background-color: #005184;
+   color: rgb(255, 255, 255);
+ }
+ 
+
+ i{
+   font-size: 3rem;
+
+ }
+
+ .footer2{
+     background-color: #FEA400;
+     color: rgb(0, 0, 0);
+ }
+
+ .footer1{
+   background-color: #010238;
+}
+
+ footer a{
+     color: rgb(255, 255, 255);
+ }
+
+ body::-webkit-scrollbar { 
+  width: 10px; 
+      background: #ffffff; 
+    } 
+  
+    body::-webkit-scrollbar-thumb { 
+      //background: white, 0.2;
+     border-radius: 10px; 
+     border-right: 10px solid #ffffff; 
+    } 
+
+
+ //para nosotros
+ .recuadro{
+   color: #010238;
+   text-align: center;
+   height: 100vh;
+ }
+ 
+ .texto1{
+   border: 4px solid #ffffff ;
+   background-color: #ffffff;
+   line-height: 200%;
+   font-family: $contenido;
+   border-radius: 2%;
+ }
+
+ .cotiza{
+   background-color: #ffffff;
+ }
+
+ .juan{
+   border: 3px solid #ffffff;
+   color: #868D96;
+   border-radius: 5px;
+ }
+
+ .texto3{
+   color: #010238;
+   font-family: $contenido;
+ }
+
+
+
+/*-------------------------------------------------------------- 
+
+# ESTILOS DEL MODAL 
+
+--------------------------------------------------------------*/ 
+
+.modal-content{ 
+ background-color: rgba(255, 255, 255, 0.623); 
+ border: none; 
+ border-radius: 0; 
+
+
+
+
+ color: rgb(255, 255, 255); 
+ a{ 
+     color: rgb(255, 255, 255); 
+ } 
+
+} 
+
+
+
+
+.modal-header{ 
+
+ border-bottom: none; 
+
+}  
+
+body{
+  overflow-x: hidden;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+.boton{
+  background-color: #ffffff;
+  padding: 3% 8%;
+  font-family: $Poppins;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+
+  &:hover{
+      background-color: #ffffff;
+      color: rgb(255, 255, 255);
+  }
+}
+
+.boton2{
+  background-color: #ffffff;
+  padding: 1% 4%;
+  font-family: $Poppins;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+
+  &:hover{
+      background-color: #000000;
+      color: rgb(0, 0, 0);
+  }
+}
+
+
+.barranav{
+  font: $Poppins;
+  color: rgb(255, 255, 255); 
+  background-color: #ffffff;
+}
+
+.textohednav{
+  font: $Poppins;
+}
+
+.seccion1{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.center{ //para centrar imagenes
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.seccion2{
+  font-family: $Roboto;
+}
+
+.footer{
+  background-color: #ffffff;
+  font-family: $Poppins;
+
+  a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-weight: 300;
+     }
+
+}
+
+
+
+.footer1{
+  background-color: #ffffff;
+  font-family: $Poppins;
+  color: rgb(255, 255, 255);
+  a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+     }
+
+}
+
+
+/*-------------------------------------------------------------- 
+
+# Estilos Scroll 
+
+--------------------------------------------------------------*/ 
+
+body::-webkit-scrollbar { 
+width: 10px; 
+  background: #ffffff; 
+} 
+
+body::-webkit-scrollbar-thumb { 
+  //background: white, 0.2;
+ border-radius: 10px; 
+ border-right: 10px solid #ffffff; 
+} 
